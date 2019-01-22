@@ -11,7 +11,10 @@ namespace CardsNewGameApp
     {
         public int row { get; set; }
         public int col { get; set; }
+        public int id { get; set; }
         public Image image { get; set; }
-       
+        public TapGestureRecognizer tapImage { get; set; }
+
+
     }
 }

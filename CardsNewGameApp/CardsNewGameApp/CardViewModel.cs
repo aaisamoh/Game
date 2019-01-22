@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace CardsNewGameApp
 {
-    //that the class implements the INotifyPropertyChanged interface, 
+    //That the class implements the INotifyPropertyChanged interface, 
     //which will allow elements of the user interface automatically sync 
     //values with the values of the object properties card.
     public class CardViewModel : INotifyPropertyChanged

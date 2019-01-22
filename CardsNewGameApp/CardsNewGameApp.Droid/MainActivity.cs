@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace CardsNewGameApp.Droid
 {
-    [Activity(Label = "CardsNewGameApp", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Cards game", Icon = "@drawable/icon1", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
     {
         protected override void OnCreate(Bundle bundle)
